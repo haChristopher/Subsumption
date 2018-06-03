@@ -73,11 +73,16 @@ void loop() {
 }
 
 // Bring all servos back to starting postion
-void stop()
-{
+void stop(){
         LEFT_FRONT_STOP;
         RIGHT_FRONT_STOP;
         LEFT_BACK_STOP;
         RIGHT_BACK_STOP;
         HEAD_STOP;
+}
+
+void turn_left(){
+}
+
+void turn_right(){
 }
