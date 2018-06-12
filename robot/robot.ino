@@ -11,20 +11,20 @@
 #define C_TURNLEFT  4
 #define C_TURNRIGHT 5
 
+Servo leftFrontLegServo;
+Servo rightFrontLegServo;
+Servo headServo;
+Servo leftBackLegServo;
+Servo rightBackLegServo;
+
 // Check numbers
 // Stop - is this a good way to do it ?
 #define LEFT_FRONT_STOP  leftFrontLegServo.write(90);
 #define RIGHT_FRONT_STOP rightFrontLegServo.write(90);
 #define LEFT_BACK_STOP  leftBackLegServo.write(90);
 #define RIGHT_BACK_STOP rightBackLegServo.write(90);
-#define HEAD_STOP sonarServo.write(90);
+#define HEAD_STOP headServo.write(90);
 
-
-Servo leftFrontLegServo;
-Servo rightFrontLegServo;
-Servo headServo;
-Servo leftBackLegServo;
-Servo rightBackLegServo;
 
 int pos1, pos2, pos3, pos4, pos5;
 double counter;
